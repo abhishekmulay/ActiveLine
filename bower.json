@@ -1,0 +1,23 @@
+{
+	"name": "jquery-activeline",
+	"version": "1.0",
+	"homepage": "http://abhishekmulay.github.io",
+	"authors": [
+		"Abhishek Mulay"
+	],
+	"description": "A jQuery plugin for displaying an underling below the active list item in navigation.",
+	"main": "src/jquery.activeline.js",
+	"keywords": [
+		"jquery",
+		"plugin",
+		"activeline",
+		"jquery-plugin"
+	],
+	"devDependencies":{
+		"grunt-contrib-concat": "~0.5.0",
+		"grunt-contrib-uglify": "~0.3",
+    	"grunt-contrib-watch": "~0.5",
+    	"grunt-contrib-jshint": "~0.8"
+    	},
+	"license": "MIT"
+}

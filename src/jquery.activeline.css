@@ -1,0 +1,11 @@
+.activeLine-nav{
+	position: relative;
+}
+
+.activeLine-nav .activeLine{
+	position: absolute;
+	bottom: 0;
+	height:5px;
+	background: red;
+	min-width: 50px;
+}

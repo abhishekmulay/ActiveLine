@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery active line Demo</title>
+		<style>
+			body{
+				padding: 0;
+				margin: 0;
+				font-family: verdana;
+			}
+			.activeLine-nav{
+				margin:0;
+				padding:0;  
+				background: #DDD;
+				height: 60px;
+				line-height: 60px;
+				position: relative;
+			}
+			.activeLine-nav ul{
+				width: 100%;
+				padding: 0;
+				margin: 0;
+				list-style: none;
+
+			}
+			.activeLine-nav ul li{
+				display: inline-block;
+				width: 19%;
+				border-right: 1px solid #808080;
+				text-align: center;
+				margin: 0;
+				padding: 0;
+			}
+			.activeLine-nav ul li:last-child{
+				border-right: none;
+			}
+
+			.activeLine-nav ul li a{
+				text-decoration: none;
+				width: 100%;
+				height: 100%;
+				display: inline-block;
+				font-size: 18px;
+				color:#606060;
+			}
+
+			.activeLine-nav ul li a:hover{
+				font-weight: bolder;
+				color: red;
+			}
+
+			.activeLine-nav .activeLine{
+				position: absolute;
+				bottom: 0;
+				height:5px;
+				background: red;
+				min-width: 50px;
+			}
+		</style>	
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="../src/jquery.activeline.js"></script>
+	</head>
+	<body>
+
+	<nav class="activeLine-nav">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<script>
+		$(function() {
+			$(".activeLine-nav").activeLine({});
+		});
+	</script>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+{
+	"name": "activeline",
+	"title": "jQuery Activeline",
+	"description": "A jquery plugin for making navigation with activeline.",
+	"keywords": [
+		"jquery",
+		"activeline",
+		"plugins"
+	],
+	"version": "0.1",
+	"author": {
+		"name": "Abhishek Mulay",
+		"url": "https://abihshekmulay.github.io"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://zenorocha.mit-license.org/"
+		}
+	],
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}
